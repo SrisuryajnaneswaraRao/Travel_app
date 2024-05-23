@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppies',sans-serif;
+}
+body{
+    background-image: url(./assets/loginbg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.navbar{
+    height: 65px;
+}
+.l1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 3%;
+    
+}
+section{
+    position: relative;
+    max-width: 400px;
+    background-color: rgba(181, 178, 178, 0.707);
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem 3rem;
+}
+h1{
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-family:'sans-serif';
+}
+.inputbox{
+    position: relative;
+    max-width: 310px;
+    border-bottom: 2px solid #fff;
+}
+.inputbox input {
+    width: 100%;
+    height: 60px;
+    background: transparent;
+    border: none;
+    outline: none;
+    font-size: 1rem;
+    font-weight: bold;
+    padding: 0 35px 0 5px;
+    color: black;
+}
+.forget{
+    margin: 35px 0;
+    font-size:0.85em;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+}
+.forget label{
+    display: flex;
+    align-items: center;
+}
+.forget label input{
+    margin-right: 3px;
+}
+.forget a{
+    color: #ffff;
+    text-decoration: none;
+    font-weight: 600;
+}
+.forget a:hover {
+    text-decoration: underline;
+}
+button{
+    width: 55%;
+    height: 25px;
+    background-color: rgba(255, 255, 255, 0.895);
+    border:none;
+    outline:none;
+    cursor: pointer;
+    font-weight: 550;
+    transition: all 0.4s ease;
+}
+button:hover{
+    background-color:rgba(0, 250, 17, 0.701);
+}
+.v1{
+    border-radius:20px;
+}
+input::placeholder, textarea::placeholder {
+    color: #000000;
+}
+footer{
+    background-color: rgb(28, 27, 27);
+    height:100%;
+    width: auto;
+    color: white;
+    text-align: center;
+    margin-top: 3%;
+}
+p{
+    font-style: italic;
+}

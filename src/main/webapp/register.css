@@ -1,0 +1,69 @@
+body{
+    background-image: url(./assets/registerbg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.navbar{
+    height: 65px;
+}
+h1{
+    font-family:'sans-serif';
+}
+.l2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2%;
+}
+section{
+    position: relative;
+    max-width: 400px;
+    background-color: rgba(181, 178, 178, 0.773);
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem 3rem;
+}
+.inputbox{
+    position: relative;
+    max-width: 310px;
+    border-bottom: 2px solid #010101;
+}
+.inputbox input {
+    width: 100%;
+    height: 60px;
+    background: transparent;
+    border: none;
+    outline: none;
+    font-size: 1rem;
+    padding: 0 35px 0 5px;
+    color: #1a1919;
+}
+button{
+    width: 55%;
+    height: 25px;
+    background-color: rgba(255, 255, 255, 0.895);
+    border:none;
+    outline:none;
+    cursor: pointer;
+    font-weight: 550;
+    transition: all 0.4s ease;
+}
+button:hover{
+    background-color:rgba(0, 250, 71, 0.797);
+}
+.v1{
+    border-radius:20px;
+}
+input::placeholder, textarea::placeholder {
+    color: #000000;
+}
+footer{
+    background-color: rgb(28, 27, 27);
+    height: 50vh;
+    width: auto;
+    color: white;
+    text-align: center;
+    margin-top: 5%;
+}

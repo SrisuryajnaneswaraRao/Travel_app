@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppies',sans-serif;
+}
+body{
+    background-image: url(./assets/Bookingbg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.navbar{
+    height: 65px;
+}
+.l1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10%;
+    margin-right: 5%;
+}
+section{
+    position: relative;
+    max-width: 400px;
+    background-color: transparent;
+    border: 3px solid;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem 3rem;
+}
+h1{
+    text-align: center;  
+    font-family:'sans-serif';
+}
+.t1{
+    color: #000000;
+}
+input::placeholder, textarea::placeholder {
+    color: #000000;
+}
+.inputbox{
+    position: relative;
+    max-width: 310px;
+    border-bottom: 2.3px solid #ffffff;
+}
+.inputbox input {
+    width: 100%;
+    height: 60px;
+    background: transparent;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 0 35px 0 5px;
+    color: #000000;
+}
+button{
+    width: 35%;
+    height: 25px;
+    border:none;
+    outline:none;
+    cursor: pointer;
+    font-weight: 550;
+}
+.v1{
+    border-radius:20px;
+    margin-top: 8%;
+    margin-left:30%;
+    background-color:rgba(255, 255, 255, 0.803);
+    color:#4058f9 ;
+}
