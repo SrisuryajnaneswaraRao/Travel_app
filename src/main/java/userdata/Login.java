@@ -35,14 +35,13 @@ public class Login extends HttpServlet {
 	 */
 	protected void doPost(HttpServletRequest request, HttpServletResponse response)
 			throws ServletException, IOException{
-		// TODO Auto-generated method stub
-		doGet(request, response);
+		//For this page servlet mapping is given in web.xml
 		String Email = request.getParameter("Email");
 		String Pass = request.getParameter("Password");
 		PrintWriter pw = response.getWriter();
 		try {
 			Class.forName("com.mysql.jdbc.Driver");
-			Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/users","root","srisurya@1226");
+			Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/users","root","root");
 			 Statement stmt = con.createStatement();
 			 ResultSet rs = stmt.executeQuery("select* from register");
 			

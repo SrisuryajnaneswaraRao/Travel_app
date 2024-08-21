@@ -37,6 +37,7 @@
             </ul>
           </div>
         </nav>
+        </div>
       <div class="l2">
         <section>
             <form action="Register" method="post">

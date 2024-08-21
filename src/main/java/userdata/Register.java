@@ -50,7 +50,7 @@ public class Register extends HttpServlet {
 		if (pass.equals(cpass)) {
 			try {
 			    Class.forName("com.mysql.jdbc.Driver");
-			    con = DriverManager.getConnection("jdbc:mysql://localhost:3306/users", "root", "srisurya@1226");
+			    con = DriverManager.getConnection("jdbc:mysql://localhost:3306/users", "root", "root");
 			    PreparedStatement ps = con.prepareStatement("INSERT INTO register(fullname, date, gender, mobilenumber, address, email, password, confirmpassword) VALUES (?, ?, ?, ?, ?, ?, ?, ?)");
 			    ps.setString(1, fullname);
 			    ps.setString(2, date);

@@ -38,13 +38,13 @@
       </nav>
       <div class="l1">
         <section>
-            <form>
+            <form action="Booking" method="get">
                 <u class="t1"><h1>Trip Details</h1></u>
                 <div class="inputbox">
-                    <input type="text" placeholder="From">
+                    <input type="text" name="from" placeholder="From">
                 </div>
                 <div class="inputbox">
-                    <input type="text" placeholder="To">
+                    <input type="text" name="to" placeholder="To">
                 </div>
                 <button class="v1">Search</button>
             </form>
